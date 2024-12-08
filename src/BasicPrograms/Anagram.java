@@ -49,7 +49,7 @@ public class Anagram {
 		
 		String str1 = "abcd";
 		String str2 = "dcba";
-		
+		String str3 = "abbd";
 		if(areAnagram(str1,str2)) {
 			
 			System.out.println(str1 +" are "+str2+ " anagrams ");
