@@ -20,7 +20,7 @@ public class Anagram {
 		
 		for(int i=0; i<str1.length();i++) {
 			
-			// test
+			
 			char c1 = str1.charAt(i);
 			char c2 = str2.charAt(i);
 			countchar.put(c1,countchar.getOrDefault(c1, 0)+1);
@@ -39,10 +39,12 @@ public class Anagram {
 		
 		return true;
 		
+		
+		
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		
 		
 		String str1 = "abcd";
